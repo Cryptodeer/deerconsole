@@ -10,6 +10,6 @@ from .checkSig import checksig
 import json
 
 def process(req):
-	if !checksig(req["params"]):
+	if not checksig(req["params"]):
 		return False
 	return rpccall(req["id"], "dwskipchecksig", req["params"])
