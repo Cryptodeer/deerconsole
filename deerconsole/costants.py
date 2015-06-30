@@ -10,6 +10,6 @@
 
 API_PROTOCOL = "http"
 API_ENDPOINT = "localhost:11993"
-API_DEERWALLET_PATH = "deerwallet"
+API_DEERWALLET_PATH = "deerwallet/v2"
 
 # data structure constants
